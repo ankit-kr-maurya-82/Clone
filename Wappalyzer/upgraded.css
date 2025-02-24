@@ -1,0 +1,86 @@
+
+
+.section_one{
+    background-color: #121212;
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 64px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.left_section{
+    background-color: #1e1e1e;
+    /* border: 3px solid wheat; */
+    width: 609px;
+    font-size: 15.75px;
+    border-radius: 5px;
+}
+
+.card_title{
+    font-size: 22.5px;
+    padding:16px;
+}
+
+.card_subtitle{
+    padding: 16px;
+}
+
+.card_subtitle>i{
+    background-color: white;
+    color: black;
+    padding: 4px;
+    margin: auto 2px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+
+
+table, tr>td,table>tbody{
+    /* border: 3px solid white; */
+    width: 100%;
+}
+table>tbody>tr>td{
+    padding: 12px 16px;
+}
+
+ tr>td{
+    border-top: 0.3px solid grey;
+}
+
+.right_section{
+    position: relative;
+}
+
+.card_one{
+    width: 100%;
+    background-color: #1e1e1e;
+    padding: 23px;
+    position: absolute;
+    top: -119px;
+    height: 195px;
+    border-radius: 5px;
+}
+
+.left_section,.right_section{
+    width: 34%;
+}
+
+
+.card_one>p{
+    margin-top: 23px;
+}
+
+
+.card_one>.signup{
+    position: absolute;
+    bottom: 23px;
+    background-color: #4608ad;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+}
