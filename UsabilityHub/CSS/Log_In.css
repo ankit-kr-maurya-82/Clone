@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55, 54, 56);
+}
+
+form{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+label{
+    margin: 12px;
+    color: white;
+    font-size: 20px;
+}
