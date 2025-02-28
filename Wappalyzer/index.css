@@ -1,7 +1,35 @@
+
+
+.head-child{
+    display: grid;
+    row-gap: 2px;
+}
+
 .version{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 50%;
     justify-self:center;
     line-height:2rem;
     font-size: 1rem;
+}
+
+
+header{
+    /* justify-content: center; */
+    height: fit-content;
+}
+
+
+
+#search-input{
+    justify-self: center;
+    min-width: 80%;
+    height: 3rem;
+    margin: 3rem;
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: #1e1e1e;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
 }
