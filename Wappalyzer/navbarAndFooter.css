@@ -101,13 +101,25 @@ footer>.foot_list>h4{
 }
 
 
+footer>.foot_list>.foot_list_one{
+    width: 100%;
+}
+
 footer>.foot_list>.foot_list_one>li{
     list-style-type: none; 
     padding: 1rem; 
+    background-color: #121212;
+    width: 100%;
 }
 
 footer>.foot_list>.foot_list_one>li>a{
     color: rgb(247, 247, 247);
+    padding: 12px;
+    width: 100%;
+
+    &&:hover{
+        background-color: #313030;
+    }
 }
 
 .index_footer{
