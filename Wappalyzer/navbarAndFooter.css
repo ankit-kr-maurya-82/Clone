@@ -93,4 +93,26 @@ footer{
     height: 100%;
     background-color:#121212;
     border-top: 1px solid rgb(77, 76, 76);
+    color: rgb(118, 118, 120);
+}
+
+footer>.foot_list>h4{
+    padding: 1rem;
+}
+
+
+footer>.foot_list>.foot_list_one>li{
+    list-style-type: none; 
+    padding: 1rem; 
+}
+
+footer>.foot_list>.foot_list_one>li>a{
+    color: rgb(247, 247, 247);
+}
+
+.index_footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    
 }
